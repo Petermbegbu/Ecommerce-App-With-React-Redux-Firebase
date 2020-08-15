@@ -1,0 +1,15 @@
+.card {
+  width: 250px;
+  border: solid;
+}
+
+.foot {
+  width: 250px;
+  position: relative;
+  padding: 5px;
+}
+
+.price {
+  position: absolute;
+  right: 0px;
+}

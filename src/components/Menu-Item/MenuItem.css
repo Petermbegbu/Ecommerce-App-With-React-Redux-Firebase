@@ -1,0 +1,26 @@
+.outerBox1 {
+  width: 23rem;
+  margin: auto;
+  height: 14rem;
+  border: solid 2px;
+}
+
+.outerBox2 {
+  width: 35rem;
+  margin: auto;
+  height: 17rem;
+  border: solid 2px;
+  position: relative;
+}
+
+.innerBox {
+  width: 10rem;
+  height: 5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -2.5rem;
+  margin-left: -5rem;
+  border: solid 0px rgba(252, 249, 249, 0.7);
+  background-color: rgba(252, 249, 249, 0.7);
+}

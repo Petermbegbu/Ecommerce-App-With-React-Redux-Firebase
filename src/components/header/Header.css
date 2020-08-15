@@ -1,0 +1,19 @@
+.menuDiv {
+  position: relative;
+  padding: 2rem;
+  line-height: 4rem;
+}
+
+.menuSpan {
+  position: absolute;
+  right: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
