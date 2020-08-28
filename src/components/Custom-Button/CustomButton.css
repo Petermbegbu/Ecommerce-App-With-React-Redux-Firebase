@@ -11,3 +11,18 @@
   color: black;
   border: solid 1px black;
 }
+
+.addToCartBtn {
+  width: 11rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255, 0.7);
+  font-weight: 500;
+  color: black;
+  border: solid 1px black;
+}
+
+.addToCartBtn:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}

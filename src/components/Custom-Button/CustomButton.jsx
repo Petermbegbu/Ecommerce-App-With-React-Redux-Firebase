@@ -1,8 +1,11 @@
 import React from "react";
 import "./CustomButton.css";
 
-const CustomButton = ({ children, ...otherProps }) => (
-  <button className="button" {...otherProps}>
+const CustomButton = ({ children, addToCartBtn, ...otherProps }) => (
+  <button
+    className={`${addToCartBtn ? "addToCartBtn" : "button"}`}
+    {...otherProps}
+  >
     {children}
   </button>
 );

@@ -1,12 +1,17 @@
 .menuDiv {
-  position: relative;
-  padding: 2rem;
-  line-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
 }
 
-.menuSpan {
-  position: absolute;
-  right: 0px;
+.menuRightDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 a {

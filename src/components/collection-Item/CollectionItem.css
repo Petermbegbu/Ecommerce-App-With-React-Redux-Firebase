@@ -1,6 +1,7 @@
 .card {
   width: 250px;
   border: solid;
+  position: relative;
 }
 
 .foot {
@@ -12,4 +13,16 @@
 .price {
   position: absolute;
   right: 0px;
+}
+
+.customBtnDiv {
+  text-align: center;
+  width: 250px;
+  position: absolute;
+  top: 200px;
+  display: none;
+}
+
+.collectionDiv:hover .customBtnDiv {
+  display: block;
 }
