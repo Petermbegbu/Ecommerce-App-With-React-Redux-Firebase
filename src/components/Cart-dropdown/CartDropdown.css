@@ -22,3 +22,7 @@
 .button {
   margin-top: auto;
 }
+
+.emptyMessage {
+  font-size: 18px;
+}

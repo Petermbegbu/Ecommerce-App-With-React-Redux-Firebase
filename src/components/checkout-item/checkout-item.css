@@ -1,0 +1,18 @@
+.img {
+  width: 80px;
+  height: 80px;
+}
+
+.delete {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.eachRow {
+  font-weight: 600;
+}
+
+.arrow {
+  padding: 0 13px;
+  cursor: pointer;
+}
